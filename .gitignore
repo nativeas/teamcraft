@@ -1,0 +1,9 @@
+bin-debug/
+bin-release/
+
+.actionScriptProperties
+.flexProperties
+.settings/
+.project
+
+.DS_Store
