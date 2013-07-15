@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4cf45c05a482a6de73fb1e5a867c7f45$ -->
+<TextureAtlas imagePath="soldier.png">
+	<SubTexture name="soldier_2669" x="296" y="31" width="21"
+		height="27" frameX="-11" frameY="-2" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2671" x="296" y="2" width="21"
+		height="27" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2673" x="273" y="31" width="21"
+		height="27" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2675" x="169" y="2" width="21"
+		height="29" frameX="-13" frameY="0" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2677" x="273" y="2" width="21"
+		height="27" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2679" x="106" y="33" width="21"
+		height="25" frameX="-13" frameY="-4" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2681" x="225" y="31" width="23"
+		height="27" frameX="-9" frameY="-2" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2683" x="225" y="2" width="23"
+		height="27" frameX="-9" frameY="-2" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2685" x="192" y="31" width="31"
+		height="27" frameX="-12" frameY="-2" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2687" x="2" y="33" width="29"
+		height="25" frameX="-14" frameY="-4" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2689" x="250" y="31" width="21"
+		height="27" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2691" x="192" y="2" width="31"
+		height="27" frameX="-2" frameY="-2" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2693" x="105" y="2" width="31"
+		height="29" frameX="-2" frameY="0" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2695" x="72" y="2" width="31"
+		height="29" frameX="-1" frameY="0" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2697" x="37" y="2" width="33"
+		height="29" frameX="-10" frameY="0" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2699" x="2" y="2" width="33" height="29"
+		frameX="-10" frameY="0" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2701" x="138" y="2" width="29"
+		height="29" frameX="-14" frameY="0" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2703" x="250" y="2" width="21"
+		height="27" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2705" x="83" y="33" width="21"
+		height="25" frameX="-8" frameY="-4" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2707" x="58" y="33" width="23"
+		height="25" frameX="-5" frameY="-4" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2709" x="33" y="33" width="23"
+		height="25" frameX="-3" frameY="-4" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2711" x="129" y="33" width="27"
+		height="15" frameX="0" frameY="-16" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2713" x="158" y="48" width="27"
+		height="11" frameX="0" frameY="-20" frameWidth="43" frameHeight="31" />
+	<SubTexture name="soldier_2715" x="158" y="33" width="27"
+		height="13" frameX="0" frameY="-18" frameWidth="43" frameHeight="31" />
+</TextureAtlas>

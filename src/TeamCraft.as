@@ -21,7 +21,7 @@ package
 			_starling = new Starling(Game,stage);
 			_starling.antiAliasing =1;
 			_starling.showStats=true;
-			_starling.showStatsAt();
+			_starling.showStatsAt("right","top");
 			_starling.start();
 		}
 	}
