@@ -2,6 +2,7 @@ package
 {
 	import com.sevencool.teamcraft.screens.InGame;
 	
+	import starling.display.Image;
 	import starling.display.Sprite;
 	import starling.events.Event;
 
@@ -27,6 +28,7 @@ package
 		{
 			screenInGame = new InGame();
 			this.addChild(screenInGame);
+			
 		}
 	}
 }

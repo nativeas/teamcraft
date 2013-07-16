@@ -5,7 +5,7 @@ package
 	
 	import starling.core.Starling;
 	
-	[SWF(frameRate="60", width="1024", height="768", backgroundColor="0x000000")]
+	[SWF(frameRate="60", width="1024", height="768", backgroundColor="0xffffff")]
 	public class TeamCraft extends Sprite
 	{
 		private var _starling :Starling;

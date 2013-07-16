@@ -18,6 +18,9 @@ package
 		[Embed(source="../assets/graphics/soldier.xml", mimeType="application/octet-stream")]
 		public static const AtlasXmlGame:Class;
 		
+
+		[Embed(source="../assets/graphics/bg.jpg")]
+		public static const BgLayer1:Class;
 		/**
 		 * Texture Cache 
 		 */
