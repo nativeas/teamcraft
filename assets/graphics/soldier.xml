@@ -1,53 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker -->
-<!-- $TexturePacker:SmartUpdate:4cf45c05a482a6de73fb1e5a867c7f45$ -->
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:e3b9d3d6d26799658442dfdd2dee96e3$ -->
 <TextureAtlas imagePath="soldier.png">
-	<SubTexture name="soldier_2669" x="296" y="31" width="21"
-		height="27" frameX="-11" frameY="-2" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2671" x="296" y="2" width="21"
-		height="27" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2673" x="273" y="31" width="21"
-		height="27" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2675" x="169" y="2" width="21"
-		height="29" frameX="-13" frameY="0" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2677" x="273" y="2" width="21"
-		height="27" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2679" x="106" y="33" width="21"
-		height="25" frameX="-13" frameY="-4" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2681" x="225" y="31" width="23"
-		height="27" frameX="-9" frameY="-2" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2683" x="225" y="2" width="23"
-		height="27" frameX="-9" frameY="-2" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2685" x="192" y="31" width="31"
-		height="27" frameX="-12" frameY="-2" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2687" x="2" y="33" width="29"
-		height="25" frameX="-14" frameY="-4" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2689" x="250" y="31" width="21"
-		height="27" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2691" x="192" y="2" width="31"
-		height="27" frameX="-2" frameY="-2" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2693" x="105" y="2" width="31"
-		height="29" frameX="-2" frameY="0" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2695" x="72" y="2" width="31"
-		height="29" frameX="-1" frameY="0" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2697" x="37" y="2" width="33"
-		height="29" frameX="-10" frameY="0" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2699" x="2" y="2" width="33" height="29"
-		frameX="-10" frameY="0" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2701" x="138" y="2" width="29"
-		height="29" frameX="-14" frameY="0" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2703" x="250" y="2" width="21"
-		height="27" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2705" x="83" y="33" width="21"
-		height="25" frameX="-8" frameY="-4" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2707" x="58" y="33" width="23"
-		height="25" frameX="-5" frameY="-4" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2709" x="33" y="33" width="23"
-		height="25" frameX="-3" frameY="-4" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2711" x="129" y="33" width="27"
-		height="15" frameX="0" frameY="-16" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2713" x="158" y="48" width="27"
-		height="11" frameX="0" frameY="-20" frameWidth="43" frameHeight="31" />
-	<SubTexture name="soldier_2715" x="158" y="33" width="27"
-		height="13" frameX="0" frameY="-18" frameWidth="43" frameHeight="31" />
+    <SubTexture name="attack/image 2681" x="2" y="87" width="23" height="25" frameX="-9" frameY="-3" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="attack/image 2683" x="2" y="60" width="23" height="25" frameX="-9" frameY="-3" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="attack/image 2685" x="2" y="33" width="31" height="25" frameX="-12" frameY="-3" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="attack/image 2687" x="35" y="33" width="29" height="25" frameX="-14" frameY="-3" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="attack/image 2689" x="96" y="85" width="21" height="25" frameX="-13" frameY="-3" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="attack/image 2691" x="72" y="31" width="31" height="27" frameX="-2" frameY="-1" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="attack/image 2693" x="105" y="2" width="31" height="27" frameX="-2" frameY="-1" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="attack/image 2695" x="72" y="2" width="31" height="27" frameX="-1" frameY="-1" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="attack/image 2697" x="37" y="2" width="33" height="29" frameX="-10" frameY="0" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="attack/image 2699" x="2" y="2" width="33" height="29" frameX="-10" frameY="0" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="attack/image 2701" x="105" y="31" width="29" height="27" frameX="-14" frameY="-1" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="dead/image 2703" x="73" y="112" width="21" height="25" frameX="-13" frameY="-3" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="dead/image 2705" x="73" y="85" width="21" height="25" frameX="-8" frameY="-3" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="dead/image 2707" x="27" y="60" width="23" height="23" frameX="-5" frameY="-3" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="dead/image 2709" x="2" y="114" width="23" height="23" frameX="-3" frameY="-4" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="dead/image 2711" x="98" y="60" width="27" height="15" frameX="0" frameY="-16" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="dead/image 2713" x="96" y="127" width="27" height="11" frameX="0" frameY="-20" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="dead/image 2715" x="96" y="112" width="27" height="13" frameX="0" frameY="-18" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="stand/image 2679" x="75" y="60" width="21" height="23" frameX="-13" frameY="-5" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="walking/image 2669" x="50" y="112" width="21" height="25" frameX="-11" frameY="-3" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="walking/image 2671" x="50" y="85" width="21" height="25" frameX="-13" frameY="-3" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="walking/image 2673" x="27" y="112" width="21" height="25" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="walking/image 2675" x="52" y="60" width="21" height="23" frameX="-13" frameY="-1" frameWidth="43" frameHeight="31"/>
+    <SubTexture name="walking/image 2677" x="27" y="85" width="21" height="25" frameX="-13" frameY="-2" frameWidth="43" frameHeight="31"/>
 </TextureAtlas>
