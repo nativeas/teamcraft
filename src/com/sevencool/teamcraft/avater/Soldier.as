@@ -2,6 +2,8 @@ package com.sevencool.teamcraft.avater
 {
 	import flash.geom.Point;
 	
+	import flashx.textLayout.elements.BreakElement;
+	
 	import starling.animation.Transitions;
 	import starling.animation.Tween;
 	import starling.core.Starling;
@@ -26,7 +28,7 @@ package com.sevencool.teamcraft.avater
 		public function Soldier()
 		{
 			super();
-			
+			_randomSpd = Math.random();
 			this.addEventListener(Event.ADDED_TO_STAGE,onAddedToStage);
 		}
 		
@@ -60,7 +62,10 @@ package com.sevencool.teamcraft.avater
 					key="walking";
 					break;
 				}
-					
+				case 3:{
+					key="attack";
+					break;
+				}
 				default:
 				{
 					break;
@@ -115,7 +120,16 @@ package com.sevencool.teamcraft.avater
 		}
 		
 		
+		public function atteck($x:int,$y:int):void{
+			if($x < this.x)
+				faceTo(-1);
+			else
+				faceTo(1);
+			
+			setState(3);
+		}
 		
+		private var _randomSpd:Number = 0;
 		/**
 		 * 计算时间 
 		 * 根据距离计算需要行走的时间 
@@ -129,7 +143,7 @@ package com.sevencool.teamcraft.avater
 			var dp:Point = new Point($distX,$distY);
 			var dst:int = Point.distance(sp,dp);
 			
-			return dst/30;
+			return dst/30+_randomSpd+10;
 		}
 	}
 }

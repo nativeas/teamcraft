@@ -1,6 +1,7 @@
 package com.sevencool.teamcraft.screens
 {
 	import com.sevencool.teamcraft.avater.Soldier;
+	import com.sevencool.teamcraft.avater.Team;
 	import com.sevencool.teamcraft.layer.BGLayer;
 	
 	import flashx.textLayout.elements.BreakElement;
@@ -43,7 +44,6 @@ package com.sevencool.teamcraft.screens
 					case TouchPhase.ENDED:
 					{
 						trace("end!");
-						trace("move to ",touch.globalX,touch.globalY);
 						soliderMoveTo(touch.globalX,touch.globalY);
 						break;
 					}
@@ -60,6 +60,7 @@ package com.sevencool.teamcraft.screens
 		
 		private var _background:BGLayer = null;
 		private var solider:Soldier = new Soldier();
+		private var team:Team = null;
 		private function onAddedToStage(event:Event):void
 		{
 			this.removeEventListener(Event.ADDED_TO_STAGE,onAddedToStage);
@@ -71,16 +72,17 @@ package com.sevencool.teamcraft.screens
 			addChild(_background);
 			
 			
-			addChild(solider);
-			solider.x = this.stage.stageWidth/2;
-			solider.y = this.stage.stageHeight/2;
+			team = new Team();
+			team.createTeam(16,this.stage.stageWidth/2,this.stage.stageHeight/2,this);
+			
 		}		
 		
 		
 		private function soliderMoveTo($x:int,$y:int):void
 		{
 			
-			solider.moveTo($x,$y);
+			team.moveTo($x,$y);
+			
 		}
 		
 	}
